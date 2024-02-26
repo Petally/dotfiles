@@ -214,7 +214,7 @@ bar {
     i3bar_command i3bar --transparency
 
     colors {
-        background         #1e1e2e99
+        background         #1e1e2eFF
         statusline         #cdd6f4
         focused_statusline #cdd6f4
         active_workspace   #1e1e2e #cdd6f4 #89b4fa
