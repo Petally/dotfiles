@@ -190,10 +190,6 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# app-specific settings
-for_window [class="Steam"] floating enable
-for_window [class="Steam" title="^Steam$"] floating disable
-
 # disable title bar
 default_border pixel 1
 default_floating_border pixel 1
