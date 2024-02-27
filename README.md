@@ -9,6 +9,7 @@ For package naming, I'll use the names of packages on the arch repo.
 - Window manager: [i3](https://archlinux.org/groups/x86_64/i3/)
 - Compositor: [picom](https://wiki.archlinux.org/title/picom)
 - Text editor: [neovim](https://wiki.archlinux.org/title/Neovim) / [(LazyVim)](https://www.lazyvim.org/)
+- Video player: mpv / ffmpeg
 - Code font: `comic code`
 - Icons font: [ttf-font-awesome](https://archlinux.org/packages/extra/any/ttf-font-awesome/)
 - Other fonts: `noto-fonts` `ttf-jetbrains-mono` `ttf-dejavu`
