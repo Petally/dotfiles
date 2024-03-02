@@ -208,5 +208,12 @@ bar {
     status_command i3status
 }
 
-# Display Wallpaper
-exec_always shuf -e -n1 $HOME/Pictures/Wallpapers/* | xargs feh --bg-fill
+# Display random wallpaper, start some nice applications
+exec_always --no-startup-id shuf -e -n1 $HOME/Pictures/Wallpapers/* | xargs feh --bg-fill
+exec --no-startup-id pasystray
+exec --no-startup-id picom
+# Set proper mouse speed
+exec_always --no-startup-id xinput --set-prop 'pointer:''E-Signal USB Gaming Mouse' 'libinput Accel Profile Enabled' 0, 1
+exec_always --no-startup-id xinput --set-prop 'pointer:''E-Signal USB Gaming Mouse' 'libinput Accel Speed' -0.4
+# Set up second monitor
+exec_always --no-startup-id xrandr --output HDMI-0 --mode 1920x1080 --rate 120
