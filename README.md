@@ -7,6 +7,7 @@ For package naming, I'll use the names of packages on the arch repo.
 - Launcher: [dmenu](https://wiki.archlinux.org/title/dmenu)
 - Terminal emulator: [alacritty](https://wiki.archlinux.org/title/Alacritty)
 - Window manager: [i3](https://archlinux.org/groups/x86_64/i3/)
+- Bar: Polybar
 - Compositor: [picom](https://wiki.archlinux.org/title/picom)
 - Text editor: [neovim](https://wiki.archlinux.org/title/Neovim) / [(LazyVim)](https://www.lazyvim.org/)
 - Video player: mpv / ffmpeg
