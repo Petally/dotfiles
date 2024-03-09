@@ -11,6 +11,7 @@ For package naming, I'll use the names of packages on the arch repo.
 - Compositor: [picom](https://wiki.archlinux.org/title/picom)
 - Text editor: [neovim](https://wiki.archlinux.org/title/Neovim) / [(LazyVim)](https://www.lazyvim.org/)
 - Video player: mpv / ffmpeg
+- GUI File manager: thunar, with some plugins
 - Code font: `comic code`
 - Icons font: [ttf-font-awesome](https://archlinux.org/packages/extra/any/ttf-font-awesome/)
 - Other fonts: `noto-fonts` `ttf-jetbrains-mono` `ttf-dejavu`
