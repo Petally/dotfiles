@@ -13,10 +13,10 @@ if type "xrandr"; then
 		mon=$(cut -d" " -f1 <<<"$entry")
 		status=$(cut -d" " -f3 <<<"$entry")
 
-		tray_pos=""
-		if [ "$status" == "primary" ]; then
-			tray_pos="right"
-		fi
+		tray_pos="right"
+		#if [ "$status" == "primary" ]; then
+		#	tray_pos="right"
+		#fi
 
 		MONITOR=$mon TRAY_POS=$tray_pos polybar -r bar 2>&1 | tee -a /tmp/polybar-monitor-"$mon".log &
 		disown
