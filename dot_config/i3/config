@@ -239,6 +239,6 @@ exec --no-startup-id picom
 # exec_always --no-startup-id xinput --set-prop 'pointer:''E-Signal USB Gaming Mouse' 'libinput Accel Profile Enabled' 0, 1
 # exec_always --no-startup-id xinput --set-prop 'pointer:''E-Signal USB Gaming Mouse' 'libinput Accel Speed' -0.4
 # Set up second monitor
-exec_always --no-startup-id xrandr --output DP-4 --primary --mode 1920x1080 --rate 120 --output HDMI-0 --mode 1920x1080 --rate 120 --right-of DP-4
+exec_always xrandr --output DP-4 --primary --mode 1920x1080 --rate 120 --output HDMI-0 --mode 1920x1080 --rate 120 --right-of DP-4
 # Polybar
 exec_always ~/.config/polybar/launch.sh &
